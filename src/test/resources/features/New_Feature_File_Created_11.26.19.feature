@@ -5,4 +5,4 @@ Feature: New Feature File Created 11.26.19
     Scenario Precondition
     Given i am logged in as a parent
     When I do xyz
-    Then abc
+    Then abcxyz
