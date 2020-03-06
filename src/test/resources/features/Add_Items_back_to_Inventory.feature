@@ -18,3 +18,4 @@ When they exchange the blue garment for a black garment,
 Then I should have three blue garments in inventory
 And two black garments in inventory.
 And I am a kid who has an account
+And A Developer makes a change in their IDE
