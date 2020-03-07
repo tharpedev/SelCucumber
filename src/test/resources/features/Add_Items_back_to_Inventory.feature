@@ -5,17 +5,15 @@ Feature:Add Items back to Inventory
 
 
 Scenario: Items returned for refund should be added to inventory.
-Given that a customer previously bought a black sweater from me
-And I have three black sweaters in inventory,
-When they return the black sweater for a refund,
-Then I should have four black sweaters in inventory.
+    Given that a customer previously bought a black sweater from me
+    And I have three black sweaters in inventory,
+    When they return the black sweater for a refund,
+    Then I should have four black sweaters in inventory.
 
 Scenario: Exchanged items should be returned to inventory.
-Given that a customer previously bought a blue garment from me
-And I have two blue garments in inventory
-And three black garments in inventory,
-When they exchange the blue garment for a black garment,
-Then I should have three blue garments in inventory
-And two black garments in inventory.
-And I am a kid who has an account
-And A Developer makes a change in their IDE
+    Given that a customer previously bought a blue garment from me
+    And I have two blue garments in inventory
+    And three black garments in inventory,
+    When they exchange the blue garment for a black garment,
+    Then I should have three blue garments in inventory
+    And two black garments in inventory.
