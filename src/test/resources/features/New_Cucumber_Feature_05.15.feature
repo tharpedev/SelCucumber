@@ -12,3 +12,4 @@ Feature:New Cucumber Feature 05.15
     When abc
     Then 123
     And I am developer that changes this in IDE and checks in my code
+    And I also make a change
