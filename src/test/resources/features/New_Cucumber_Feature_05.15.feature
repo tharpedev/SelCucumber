@@ -11,3 +11,4 @@ Feature:New Cucumber Feature 05.15
     Given xyz
     When abc
     Then 123
+    And I am developer that changes this in IDE and checks in my code
