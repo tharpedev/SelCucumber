@@ -6,3 +6,5 @@ Feature: new feature name
     Given I am doing something
      When I check the letter
      Then something else
+     Then This also happens
+     
