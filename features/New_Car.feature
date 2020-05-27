@@ -1,4 +1,4 @@
-Feature:Returns and exchanges go to inventory.
+Feature:Returns and exchanges go to inventory. @inventory 
     As a store owner,
     I want to add items back to inventory when they are returned or exchanged,
     so that I can track inventory.
